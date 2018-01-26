@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C1381CF9200B81A700BD2A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381CF8200B81A700BD2A1F /* AppDelegate.swift */; };
-		C1381CFB200B81A700BD2A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381CFA200B81A700BD2A1F /* ViewController.swift */; };
+		C1381CFB200B81A700BD2A1F /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381CFA200B81A700BD2A1F /* AuthenticationVC.swift */; };
 		C1381CFE200B81A700BD2A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1381CFC200B81A700BD2A1F /* Main.storyboard */; };
 		C1381D00200B81A700BD2A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1381CFF200B81A700BD2A1F /* Assets.xcassets */; };
 		C1381D03200B81A700BD2A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1381D01200B81A700BD2A1F /* LaunchScreen.storyboard */; };
 		C1381D0E200B81A700BD2A1F /* TouchyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381D0D200B81A700BD2A1F /* TouchyTests.swift */; };
 		C1381D19200B81A700BD2A1F /* TouchyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381D18200B81A700BD2A1F /* TouchyUITests.swift */; };
+		C1381D2B200B8C0100BD2A1F /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1381D2A200B8BF800BD2A1F /* LocalAuthentication.framework */; };
+		C1381D2D200B8CFD00BD2A1F /* RoundedOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381D2C200B8CFD00BD2A1F /* RoundedOutlineView.swift */; };
+		C1EC7C12200BBFAA00EC7D04 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC7C11200BBFAA00EC7D04 /* MainVC.swift */; };
+		C1EC7C14200BC1E500EC7D04 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC7C13200BC1E500EC7D04 /* WebViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C1381CF5200B81A700BD2A1F /* Touchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1381CF5200B81A700BD2A1F /* TouchNaviWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchNaviWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1381CF8200B81A700BD2A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1381CFA200B81A700BD2A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1381CFA200B81A700BD2A1F /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
 		C1381CFD200B81A700BD2A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1381CFF200B81A700BD2A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1381D02200B81A700BD2A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1381D04200B81A700BD2A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1381D09200B81A700BD2A1F /* TouchyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1381D09200B81A700BD2A1F /* TouchNaviWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchNaviWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1381D0D200B81A700BD2A1F /* TouchyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyTests.swift; sourceTree = "<group>"; };
 		C1381D0F200B81A700BD2A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1381D14200B81A700BD2A1F /* TouchyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1381D14200B81A700BD2A1F /* TouchNaviWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchNaviWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1381D18200B81A700BD2A1F /* TouchyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyUITests.swift; sourceTree = "<group>"; };
 		C1381D1A200B81A700BD2A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1381D2A200B8BF800BD2A1F /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		C1381D2C200B8CFD00BD2A1F /* RoundedOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedOutlineView.swift; sourceTree = "<group>"; };
+		C1EC7C11200BBFAA00EC7D04 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C1EC7C13200BC1E500EC7D04 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1381D2B200B8C0100BD2A1F /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,60 +86,96 @@
 		C1381CEC200B81A700BD2A1F = {
 			isa = PBXGroup;
 			children = (
-				C1381CF7200B81A700BD2A1F /* Touchy */,
-				C1381D0C200B81A700BD2A1F /* TouchyTests */,
-				C1381D17200B81A700BD2A1F /* TouchyUITests */,
+				C1381CF7200B81A700BD2A1F /* TouchNaviWeb */,
+				C1381D0C200B81A700BD2A1F /* TouchNaviWebTests */,
+				C1381D17200B81A700BD2A1F /* TouchNaviWebUITests */,
 				C1381CF6200B81A700BD2A1F /* Products */,
+				C1381D29200B8BF800BD2A1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C1381CF6200B81A700BD2A1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1381CF5200B81A700BD2A1F /* Touchy.app */,
-				C1381D09200B81A700BD2A1F /* TouchyTests.xctest */,
-				C1381D14200B81A700BD2A1F /* TouchyUITests.xctest */,
+				C1381CF5200B81A700BD2A1F /* TouchNaviWeb.app */,
+				C1381D09200B81A700BD2A1F /* TouchNaviWebTests.xctest */,
+				C1381D14200B81A700BD2A1F /* TouchNaviWebUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1381CF7200B81A700BD2A1F /* Touchy */ = {
+		C1381CF7200B81A700BD2A1F /* TouchNaviWeb */ = {
 			isa = PBXGroup;
 			children = (
+				C1381D28200B81EB00BD2A1F /* Model */,
+				C1381D27200B81E400BD2A1F /* View */,
+				C1381D26200B81DA00BD2A1F /* Controller */,
 				C1381CF8200B81A700BD2A1F /* AppDelegate.swift */,
-				C1381CFA200B81A700BD2A1F /* ViewController.swift */,
 				C1381CFC200B81A700BD2A1F /* Main.storyboard */,
 				C1381CFF200B81A700BD2A1F /* Assets.xcassets */,
 				C1381D01200B81A700BD2A1F /* LaunchScreen.storyboard */,
 				C1381D04200B81A700BD2A1F /* Info.plist */,
 			);
-			path = Touchy;
+			path = TouchNaviWeb;
 			sourceTree = "<group>";
 		};
-		C1381D0C200B81A700BD2A1F /* TouchyTests */ = {
+		C1381D0C200B81A700BD2A1F /* TouchNaviWebTests */ = {
 			isa = PBXGroup;
 			children = (
 				C1381D0D200B81A700BD2A1F /* TouchyTests.swift */,
 				C1381D0F200B81A700BD2A1F /* Info.plist */,
 			);
-			path = TouchyTests;
+			path = TouchNaviWebTests;
 			sourceTree = "<group>";
 		};
-		C1381D17200B81A700BD2A1F /* TouchyUITests */ = {
+		C1381D17200B81A700BD2A1F /* TouchNaviWebUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C1381D18200B81A700BD2A1F /* TouchyUITests.swift */,
 				C1381D1A200B81A700BD2A1F /* Info.plist */,
 			);
-			path = TouchyUITests;
+			path = TouchNaviWebUITests;
+			sourceTree = "<group>";
+		};
+		C1381D26200B81DA00BD2A1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1381CFA200B81A700BD2A1F /* AuthenticationVC.swift */,
+				C1EC7C11200BBFAA00EC7D04 /* MainVC.swift */,
+				C1EC7C13200BC1E500EC7D04 /* WebViewVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1381D27200B81E400BD2A1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1381D2C200B8CFD00BD2A1F /* RoundedOutlineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1381D28200B81EB00BD2A1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1381D29200B8BF800BD2A1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1381D2A200B8BF800BD2A1F /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1381CF4200B81A700BD2A1F /* Touchy */ = {
+		C1381CF4200B81A700BD2A1F /* TouchNaviWeb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1381D1D200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "Touchy" */;
+			buildConfigurationList = C1381D1D200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchNaviWeb" */;
 			buildPhases = (
 				C1381CF1200B81A700BD2A1F /* Sources */,
 				C1381CF2200B81A700BD2A1F /* Frameworks */,
@@ -140,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = Touchy;
+			name = TouchNaviWeb;
 			productName = Touchy;
-			productReference = C1381CF5200B81A700BD2A1F /* Touchy.app */;
+			productReference = C1381CF5200B81A700BD2A1F /* TouchNaviWeb.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1381D08200B81A700BD2A1F /* TouchyTests */ = {
+		C1381D08200B81A700BD2A1F /* TouchNaviWebTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1381D20200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchyTests" */;
+			buildConfigurationList = C1381D20200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchNaviWebTests" */;
 			buildPhases = (
 				C1381D05200B81A700BD2A1F /* Sources */,
 				C1381D06200B81A700BD2A1F /* Frameworks */,
@@ -158,14 +203,14 @@
 			dependencies = (
 				C1381D0B200B81A700BD2A1F /* PBXTargetDependency */,
 			);
-			name = TouchyTests;
+			name = TouchNaviWebTests;
 			productName = TouchyTests;
-			productReference = C1381D09200B81A700BD2A1F /* TouchyTests.xctest */;
+			productReference = C1381D09200B81A700BD2A1F /* TouchNaviWebTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C1381D13200B81A700BD2A1F /* TouchyUITests */ = {
+		C1381D13200B81A700BD2A1F /* TouchNaviWebUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1381D23200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchyUITests" */;
+			buildConfigurationList = C1381D23200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchNaviWebUITests" */;
 			buildPhases = (
 				C1381D10200B81A700BD2A1F /* Sources */,
 				C1381D11200B81A700BD2A1F /* Frameworks */,
@@ -176,9 +221,9 @@
 			dependencies = (
 				C1381D16200B81A700BD2A1F /* PBXTargetDependency */,
 			);
-			name = TouchyUITests;
+			name = TouchNaviWebUITests;
 			productName = TouchyUITests;
-			productReference = C1381D14200B81A700BD2A1F /* TouchyUITests.xctest */;
+			productReference = C1381D14200B81A700BD2A1F /* TouchNaviWebUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +233,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Joo Hee Kim";
 				TargetAttributes = {
 					C1381CF4200B81A700BD2A1F = {
@@ -204,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C1381CF0200B81A700BD2A1F /* Build configuration list for PBXProject "Touchy" */;
+			buildConfigurationList = C1381CF0200B81A700BD2A1F /* Build configuration list for PBXProject "TouchNaviWeb" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +262,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1381CF4200B81A700BD2A1F /* Touchy */,
-				C1381D08200B81A700BD2A1F /* TouchyTests */,
-				C1381D13200B81A700BD2A1F /* TouchyUITests */,
+				C1381CF4200B81A700BD2A1F /* TouchNaviWeb */,
+				C1381D08200B81A700BD2A1F /* TouchNaviWebTests */,
+				C1381D13200B81A700BD2A1F /* TouchNaviWebUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1381CFB200B81A700BD2A1F /* ViewController.swift in Sources */,
+				C1381CFB200B81A700BD2A1F /* AuthenticationVC.swift in Sources */,
+				C1EC7C12200BBFAA00EC7D04 /* MainVC.swift in Sources */,
+				C1EC7C14200BC1E500EC7D04 /* WebViewVC.swift in Sources */,
+				C1381D2D200B8CFD00BD2A1F /* RoundedOutlineView.swift in Sources */,
 				C1381CF9200B81A700BD2A1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +330,12 @@
 /* Begin PBXTargetDependency section */
 		C1381D0B200B81A700BD2A1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1381CF4200B81A700BD2A1F /* Touchy */;
+			target = C1381CF4200B81A700BD2A1F /* TouchNaviWeb */;
 			targetProxy = C1381D0A200B81A700BD2A1F /* PBXContainerItemProxy */;
 		};
 		C1381D16200B81A700BD2A1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1381CF4200B81A700BD2A1F /* Touchy */;
+			target = C1381CF4200B81A700BD2A1F /* TouchNaviWeb */;
 			targetProxy = C1381D15200B81A700BD2A1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -332,6 +380,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -358,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,6 +437,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -407,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -419,9 +471,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Touchy/Info.plist;
+				DEVELOPMENT_TEAM = YB4XC4TWQV;
+				INFOPLIST_FILE = TouchNaviWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jhk.Touchy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhk.TouchNaviWeb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -432,9 +486,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Touchy/Info.plist;
+				DEVELOPMENT_TEAM = YB4XC4TWQV;
+				INFOPLIST_FILE = TouchNaviWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jhk.Touchy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhk.TouchNaviWeb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchy.app/Touchy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchNaviWeb.app/TouchNaviWeb";
 			};
 			name = Debug;
 		};
@@ -467,7 +523,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchy.app/Touchy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchNaviWeb.app/TouchNaviWeb";
 			};
 			name = Release;
 		};
@@ -502,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1381CF0200B81A700BD2A1F /* Build configuration list for PBXProject "Touchy" */ = {
+		C1381CF0200B81A700BD2A1F /* Build configuration list for PBXProject "TouchNaviWeb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1381D1B200B81A700BD2A1F /* Debug */,
@@ -511,29 +567,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1381D1D200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "Touchy" */ = {
+		C1381D1D200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchNaviWeb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1381D1E200B81A700BD2A1F /* Debug */,
 				C1381D1F200B81A700BD2A1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C1381D20200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchyTests" */ = {
+		C1381D20200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchNaviWebTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1381D21200B81A700BD2A1F /* Debug */,
 				C1381D22200B81A700BD2A1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C1381D23200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchyUITests" */ = {
+		C1381D23200B81A700BD2A1F /* Build configuration list for PBXNativeTarget "TouchNaviWebUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1381D24200B81A700BD2A1F /* Debug */,
 				C1381D25200B81A700BD2A1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
