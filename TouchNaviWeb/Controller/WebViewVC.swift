@@ -29,37 +29,6 @@ class WebViewVC: UIViewController, WKNavigationDelegate, WKUIDelegate {
         webView.goForward()
     }
     
-    
-//    override func loadView() {
-//        let webConfiguration = WKWebViewConfiguration()
-//        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-//        webView.uiDelegate = self
-////        view.addSubview(webView)
-//        view = webView
-//
-////        toolbarV = UIToolbar.frame()
-//
-////        view.addSubview(toolbarV)
-//    }
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        // Do any additional setup after loading the view.
-//        if let address = webSite {
-//            let webURL = URL(string: address)
-//            //let urlRequest = URLRequest(url: webURL!)
-//
-//            let urlRequest = URLRequest(url: webURL!, cachePolicy: URLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 5.0)
-//
-//            //let url_request = NSURLRequest(URL: webURL!, cachePolicy: NSURLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 5.0)
-//
-//            webView.load(urlRequest)
-//
-//
-//        }
-//    }
-    
     override func viewDidLoad() {
         // add webView to the main View
 //        view.addSubview(webView) before
